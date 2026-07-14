@@ -90,6 +90,12 @@ img {
 ul { 
     padding-left: 25px; 
 }
+.news-list li {
+    margin-bottom: 20px;
+}
+.news-list li:last-child {
+    margin-bottom: 0;
+}
 b { 
     font-weight: 600; 
 }
@@ -148,4 +154,3 @@ img.seal {
 img.blogimg {
     width: 100%;
 }
-
