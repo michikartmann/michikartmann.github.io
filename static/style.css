@@ -90,12 +90,6 @@ img {
 ul { 
     padding-left: 25px; 
 }
-.news-list li {
-    margin-bottom: 20px;
-}
-.news-list li:last-child {
-    margin-bottom: 0;
-}
 b { 
     font-weight: 600; 
 }
@@ -121,12 +115,10 @@ p {
 
 img.headshot {
     width:120px;
+    height:auto;
     max-width:100%;
     float:left;
-    /* border-radius: 50%; Makes the image circular */
-    /* width: 120px;       /* Adjust width for uniform scaling */
-     /*height: 120px;       /*Ensure height matches width */
-    /* object-fit: cover;  Ensures the image fits perfectly inside the circle */
+    border-radius:0;
 }
 
 a.pub_img {
@@ -137,6 +129,18 @@ a.pub_img {
     min-height: 80px; 
     max-height: 80px; 
     margin-right: 20px;
+}
+
+.pub-placeholder {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 img.pub_img {
