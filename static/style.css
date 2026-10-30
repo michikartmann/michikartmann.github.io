@@ -41,7 +41,7 @@ h1 {
     margin: 0;
     color: var(--ink);
     font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: clamp(52px, 7vw, 82px);
+    font-size: clamp(42px, 5.5vw, 64px);
     font-weight: 500;
     line-height: 0.95;
     letter-spacing: -0.055em;
@@ -218,7 +218,7 @@ ul { padding-left: 25px; }
         float: none;
     }
 
-    h1 { font-size: 58px; }
+    h1 { font-size: 46px; }
 
     h1 small {
         display: block;
