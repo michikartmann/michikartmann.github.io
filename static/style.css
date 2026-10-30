@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@400;500;600&display=swap');
 
 :root {
-    --paper: #f6f6f3;
-    --ink: #111111;
-    --muted: #6d6d68;
-    --line: #d9d9d4;
-    --accent: #2048c8;
-    --surface: rgba(255, 255, 255, 0.62);
+    --paper: #050505;
+    --ink: #f5f5f2;
+    --muted: #a3a39d;
+    --line: #2c2c2a;
+    --accent: #ffffff;
+    --surface: rgba(255, 255, 255, 0.045);
 }
 
 * { box-sizing: border-box; }
@@ -99,7 +99,7 @@ span.links {
     letter-spacing: 0.01em;
 }
 
-span.sep { padding: 0 3px; color: #aaa9a2; }
+span.sep { padding: 0 3px; color: #686864; }
 b { font-weight: 600; }
 
 b a {
@@ -113,7 +113,7 @@ b a {
 b a:hover, b a:focus { color: var(--accent); }
 
 u {
-    text-decoration-color: #a5a5a0;
+    text-decoration-color: #858580;
     text-underline-offset: 3px;
 }
 
