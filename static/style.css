@@ -131,6 +131,14 @@ a.pub_img {
     margin-right: 20px;
 }
 
+a.pub_img img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background: #fff;
+}
+
 .pub-placeholder {
     width: 80px;
     height: 80px;
