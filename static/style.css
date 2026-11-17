@@ -119,9 +119,20 @@ u {
 
 img { display: block; margin: auto; }
 
+.header-row {
+    display: flex;
+    align-items: center;
+}
+
+.name-column {
+    display: flex;
+    align-items: center;
+    min-height: 120px;
+}
+
 img.headshot {
     width: 120px;
-    height: 154px;
+    height: 120px;
     max-width: 100%;
     float: left;
     border-radius: 0;
@@ -210,6 +221,12 @@ ul { padding-left: 25px; }
     .container {
         width: min(100% - 32px, 1080px);
         padding-top: 32px;
+    }
+
+    .header-row,
+    .name-column {
+        display: block;
+        min-height: 0;
     }
 
     img.headshot {
