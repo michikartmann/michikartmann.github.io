@@ -121,18 +121,18 @@ img { display: block; margin: auto; }
 
 .header-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .name-column {
     display: flex;
-    align-items: center;
-    min-height: 120px;
+    align-items: flex-start;
+    min-height: 0;
 }
 
 img.headshot {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: auto;
     max-width: 100%;
     float: left;
     border-radius: 0;
@@ -230,8 +230,8 @@ ul { padding-left: 25px; }
     }
 
     img.headshot {
-        width: 94px;
-        height: 118px;
+        width: 84px;
+        height: auto;
         margin: 0 0 30px;
         float: none;
     }
